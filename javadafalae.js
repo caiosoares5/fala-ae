@@ -9,11 +9,12 @@ function writeText () {
         if (i < message.length) {          
             writeText();             
         }   
-    }, 80)
+    }, 70)
 }
 
 function submitForm() {
-    console.log('eae')
+    alert('Sua denúncia foi enviada! O Rio Agradece!!!')
 }
+
 
 writeText();
